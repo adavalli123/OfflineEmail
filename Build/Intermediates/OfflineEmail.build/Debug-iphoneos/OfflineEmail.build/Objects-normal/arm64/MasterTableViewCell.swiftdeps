@@ -1,0 +1,316 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MasterTableViewCell"
+provides-nominal:
+- "C12OfflineEmail19MasterTableViewCell"
+provides-member:
+- ["C12OfflineEmail19MasterTableViewCell", ""]
+provides-dynamic-lookup:
+- "mailDescription"
+- "mailFrom"
+- "mailSubject"
+- "mailDate"
+- "configure"
+depends-top-level:
+- "MasterTableViewCell"
+- "Email"
+- "UITableViewCell"
+- "UILabel"
+depends-member:
+- ["Ps9AnyObject", "configure"]
+- !private ["Ps9AnyObject", "content"]
+- !private ["Ps9AnyObject", "from"]
+- !private ["Ps9AnyObject", "header"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mailDate"]
+- ["Ps9AnyObject", "mailDescription"]
+- ["Ps9AnyObject", "mailFrom"]
+- ["Ps9AnyObject", "mailSubject"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "time"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "configure"]
+- !private ["Ps11CVarArgType", "content"]
+- !private ["Ps11CVarArgType", "from"]
+- !private ["Ps11CVarArgType", "header"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "mailDate"]
+- ["Ps11CVarArgType", "mailDescription"]
+- ["Ps11CVarArgType", "mailFrom"]
+- ["Ps11CVarArgType", "mailSubject"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "time"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "configure"]
+- !private ["Ps28CustomDebugStringConvertible", "content"]
+- !private ["Ps28CustomDebugStringConvertible", "from"]
+- !private ["Ps28CustomDebugStringConvertible", "header"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "mailDate"]
+- ["Ps28CustomDebugStringConvertible", "mailDescription"]
+- ["Ps28CustomDebugStringConvertible", "mailFrom"]
+- ["Ps28CustomDebugStringConvertible", "mailSubject"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "time"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "configure"]
+- !private ["Ps23CustomStringConvertible", "content"]
+- !private ["Ps23CustomStringConvertible", "from"]
+- !private ["Ps23CustomStringConvertible", "header"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "mailDate"]
+- ["Ps23CustomStringConvertible", "mailDescription"]
+- ["Ps23CustomStringConvertible", "mailFrom"]
+- ["Ps23CustomStringConvertible", "mailSubject"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "time"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C12OfflineEmail5Email", "content"]
+- !private ["C12OfflineEmail5Email", "from"]
+- !private ["C12OfflineEmail5Email", "header"]
+- !private ["C12OfflineEmail5Email", "time"]
+- ["Ps9Equatable", "configure"]
+- !private ["Ps9Equatable", "content"]
+- !private ["Ps9Equatable", "from"]
+- !private ["Ps9Equatable", "header"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "mailDate"]
+- ["Ps9Equatable", "mailDescription"]
+- ["Ps9Equatable", "mailFrom"]
+- ["Ps9Equatable", "mailSubject"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "time"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "configure"]
+- !private ["Ps8Hashable", "content"]
+- !private ["Ps8Hashable", "from"]
+- !private ["Ps8Hashable", "header"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "mailDate"]
+- ["Ps8Hashable", "mailDescription"]
+- ["Ps8Hashable", "mailFrom"]
+- ["Ps8Hashable", "mailSubject"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "time"]
+- ["Ps8Hashable", ""]
+- ["C12OfflineEmail19MasterTableViewCell", "Email"]
+- ["C12OfflineEmail19MasterTableViewCell", "UILabel"]
+- ["C12OfflineEmail19MasterTableViewCell", "configure"]
+- ["C12OfflineEmail19MasterTableViewCell", "deinit"]
+- ["C12OfflineEmail19MasterTableViewCell", "init"]
+- ["C12OfflineEmail19MasterTableViewCell", "mailDate"]
+- ["C12OfflineEmail19MasterTableViewCell", "mailDescription"]
+- ["C12OfflineEmail19MasterTableViewCell", "mailFrom"]
+- ["C12OfflineEmail19MasterTableViewCell", "mailSubject"]
+- ["PSo8NSCoding", "configure"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "mailDate"]
+- ["PSo8NSCoding", "mailDescription"]
+- ["PSo8NSCoding", "mailFrom"]
+- ["PSo8NSCoding", "mailSubject"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo15NSManagedObject", "content"]
+- !private ["CSo15NSManagedObject", "from"]
+- !private ["CSo15NSManagedObject", "header"]
+- !private ["CSo15NSManagedObject", "time"]
+- ["CSo8NSObject", "Email"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "configure"]
+- !private ["CSo8NSObject", "content"]
+- !private ["CSo8NSObject", "from"]
+- !private ["CSo8NSObject", "header"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "mailDate"]
+- ["CSo8NSObject", "mailDescription"]
+- ["CSo8NSObject", "mailFrom"]
+- ["CSo8NSObject", "mailSubject"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "time"]
+- ["PSo16NSObjectProtocol", "configure"]
+- !private ["PSo16NSObjectProtocol", "content"]
+- !private ["PSo16NSObjectProtocol", "from"]
+- !private ["PSo16NSObjectProtocol", "header"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "mailDate"]
+- ["PSo16NSObjectProtocol", "mailDescription"]
+- ["PSo16NSObjectProtocol", "mailFrom"]
+- ["PSo16NSObjectProtocol", "mailSubject"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "time"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "configure"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "mailDate"]
+- ["PSo29UIAccessibilityIdentification", "mailDescription"]
+- ["PSo29UIAccessibilityIdentification", "mailFrom"]
+- ["PSo29UIAccessibilityIdentification", "mailSubject"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "configure"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "mailDate"]
+- ["PSo12UIAppearance", "mailDescription"]
+- ["PSo12UIAppearance", "mailFrom"]
+- ["PSo12UIAppearance", "mailSubject"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "configure"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "mailDate"]
+- ["PSo21UIAppearanceContainer", "mailDescription"]
+- ["PSo21UIAppearanceContainer", "mailFrom"]
+- ["PSo21UIAppearanceContainer", "mailSubject"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "configure"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "mailDate"]
+- ["PSo17UICoordinateSpace", "mailDescription"]
+- ["PSo17UICoordinateSpace", "mailFrom"]
+- ["PSo17UICoordinateSpace", "mailSubject"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "configure"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "mailDate"]
+- ["PSo13UIDynamicItem", "mailDescription"]
+- ["PSo13UIDynamicItem", "mailFrom"]
+- ["PSo13UIDynamicItem", "mailSubject"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "configure"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "mailDate"]
+- ["PSo18UIFocusEnvironment", "mailDescription"]
+- ["PSo18UIFocusEnvironment", "mailFrom"]
+- ["PSo18UIFocusEnvironment", "mailSubject"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "configure"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "mailDate"]
+- ["PSo27UIGestureRecognizerDelegate", "mailDescription"]
+- ["PSo27UIGestureRecognizerDelegate", "mailFrom"]
+- ["PSo27UIGestureRecognizerDelegate", "mailSubject"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Email"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "configure"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "mailDate"]
+- ["CSo11UIResponder", "mailDescription"]
+- ["CSo11UIResponder", "mailFrom"]
+- ["CSo11UIResponder", "mailSubject"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo15UITableViewCell", "Email"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "configure"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "mailDate"]
+- ["CSo15UITableViewCell", "mailDescription"]
+- ["CSo15UITableViewCell", "mailFrom"]
+- ["CSo15UITableViewCell", "mailSubject"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "configure"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "mailDate"]
+- ["PSo18UITraitEnvironment", "mailDescription"]
+- ["PSo18UITraitEnvironment", "mailFrom"]
+- ["PSo18UITraitEnvironment", "mailSubject"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Email"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "configure"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "mailDate"]
+- ["CSo6UIView", "mailDescription"]
+- ["CSo6UIView", "mailFrom"]
+- ["CSo6UIView", "mailSubject"]
+- !private ["CSo6UIView", "text"]
+- ["Ps12_Reflectable", "configure"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "mailDate"]
+- ["Ps12_Reflectable", "mailDescription"]
+- ["Ps12_Reflectable", "mailFrom"]
+- ["Ps12_Reflectable", "mailSubject"]
+- !private ["Ps12_Reflectable", "text"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "C12OfflineEmail5Email"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C12OfflineEmail19MasterTableViewCell"
+- "PSo8NSCoding"
+- !private "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLSignIn/GGLContext+SignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLSignIn/GGLSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/SignIn-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GMRConfiguration.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLErrorCode.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLContext.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLConfiguration.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLCore.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/Core-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/Analytics-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDSignInButton.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDProfileData.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDGoogleUser.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDAuthentication.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ReachabilitySwift.framework/Modules/ReachabilitySwift.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ReachabilitySwift.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ReachabilitySwift.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/AlamofireSwiftyJSON.framework/Modules/AlamofireSwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/AlamofireSwiftyJSON.framework/Headers/AlamofireSwiftyJSON-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/AlamofireSwiftyJSON.framework/Headers/AlamofireSwiftyJSON-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/AlamofireSwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Modules/module.modulemap"
+interface-hash: "ddf2d7084156d297ca68468fa272fc7c"

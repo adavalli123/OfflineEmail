@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "2223531b5029a50275e300d831435bd0"
+build_time: [522024783, 322937000]
+inputs:
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Alamofire.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Download.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Error.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Manager.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/MultipartFormData.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Notifications.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/ParameterEncoding.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Request.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Response.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/ResponseSerialization.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Result.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/ServerTrustPolicy.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Stream.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Timeline.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Upload.swift": [522005177, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Alamofire/Source/Validation.swift": [522005177, 0]

@@ -1,0 +1,620 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkManager"
+provides-nominal:
+- "C12OfflineEmail14NetworkManager"
+provides-member:
+- ["C12OfflineEmail14NetworkManager", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AppDelegate"
+- !private "NSURLResponse"
+- !private "NSURLRequestCachePolicy"
+- !private "NSDictionary"
+- !private "dispatch_get_main_queue"
+- !private "dispatch_async"
+- "InboxViewDelegate"
+- "StringLiteralType"
+- !private "NSURLSession"
+- !private "=="
+- !private "Alamofire"
+- !private "NSData"
+- !private "NSMutableURLRequest"
+- !private "NSHTTPURLResponse"
+- !private "NSError"
+- !private "NSURL"
+- !private "Array"
+- !private "UIApplication"
+- !private "NSEntityDescription"
+- "NetworkManager"
+- !private "Email"
+- !private "print"
+- "BooleanLiteralType"
+- !private "String"
+depends-member:
+- !private ["Ps9AnyObject", "Alamofire"]
+- !private ["Ps9AnyObject", "Array"]
+- !private ["Ps9AnyObject", "Email"]
+- !private ["Ps9AnyObject", "HTTPMethod"]
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "NSMutableURLRequest"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSURLRequestCachePolicy"]
+- !private ["Ps9AnyObject", "NSURLSession"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "cachePolicy"]
+- !private ["Ps9AnyObject", "content"]
+- !private ["Ps9AnyObject", "dataTaskWithRequest"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "entityForName"]
+- !private ["Ps9AnyObject", "from"]
+- !private ["Ps9AnyObject", "header"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isRead"]
+- !private ["Ps9AnyObject", "managedObjectContext"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "responseJSON"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "serviceURL"]
+- !private ["Ps9AnyObject", "sharedApplication"]
+- !private ["Ps9AnyObject", "sharedSession"]
+- !private ["Ps9AnyObject", "statusCode"]
+- !private ["Ps9AnyObject", "time"]
+- !private ["Ps9AnyObject", "timeoutInterval"]
+- !private ["Ps9AnyObject", "valueForKey"]
+- !private ["Ps9AnyObject", "viewDelegate"]
+- ["Ps9AnyObject", ""]
+- !private ["C12OfflineEmail11AppDelegate", "managedObjectContext"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "HTTPMethod"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "cachePolicy"]
+- !private ["Ps11CVarArgType", "content"]
+- !private ["Ps11CVarArgType", "dataTaskWithRequest"]
+- !private ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "entityForName"]
+- !private ["Ps11CVarArgType", "from"]
+- !private ["Ps11CVarArgType", "header"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isRead"]
+- !private ["Ps11CVarArgType", "managedObjectContext"]
+- !private ["Ps11CVarArgType", "resume"]
+- !private ["Ps11CVarArgType", "sharedApplication"]
+- !private ["Ps11CVarArgType", "sharedSession"]
+- !private ["Ps11CVarArgType", "statusCode"]
+- !private ["Ps11CVarArgType", "time"]
+- !private ["Ps11CVarArgType", "timeoutInterval"]
+- !private ["Ps11CVarArgType", "valueForKey"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "Failure"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Success"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "cachePolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "content"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "entityForName"]
+- !private ["Ps28CustomDebugStringConvertible", "from"]
+- !private ["Ps28CustomDebugStringConvertible", "header"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isRead"]
+- !private ["Ps28CustomDebugStringConvertible", "managedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "responseJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "result"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedSession"]
+- !private ["Ps28CustomDebugStringConvertible", "statusCode"]
+- !private ["Ps28CustomDebugStringConvertible", "time"]
+- !private ["Ps28CustomDebugStringConvertible", "timeoutInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "valueForKey"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Failure"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "HTTPMethod"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Success"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "cachePolicy"]
+- !private ["Ps23CustomStringConvertible", "content"]
+- !private ["Ps23CustomStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "entityForName"]
+- !private ["Ps23CustomStringConvertible", "from"]
+- !private ["Ps23CustomStringConvertible", "header"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isRead"]
+- !private ["Ps23CustomStringConvertible", "managedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "responseJSON"]
+- !private ["Ps23CustomStringConvertible", "result"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "sharedApplication"]
+- !private ["Ps23CustomStringConvertible", "sharedSession"]
+- !private ["Ps23CustomStringConvertible", "statusCode"]
+- !private ["Ps23CustomStringConvertible", "time"]
+- !private ["Ps23CustomStringConvertible", "timeoutInterval"]
+- !private ["Ps23CustomStringConvertible", "valueForKey"]
+- !private ["Ps28DictionaryLiteralConvertible", "valueForKey"]
+- !private ["C12OfflineEmail5Email", "content"]
+- !private ["C12OfflineEmail5Email", "deinit"]
+- !private ["C12OfflineEmail5Email", "from"]
+- !private ["C12OfflineEmail5Email", "header"]
+- !private ["C12OfflineEmail5Email", "init"]
+- !private ["C12OfflineEmail5Email", "isRead"]
+- !private ["C12OfflineEmail5Email", "time"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "GET"]
+- !private ["Ps9Equatable", "HTTPMethod"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "ReloadIgnoringLocalAndRemoteCacheData"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "cachePolicy"]
+- !private ["Ps9Equatable", "content"]
+- !private ["Ps9Equatable", "dataTaskWithRequest"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "entityForName"]
+- !private ["Ps9Equatable", "from"]
+- !private ["Ps9Equatable", "header"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isRead"]
+- !private ["Ps9Equatable", "managedObjectContext"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "sharedApplication"]
+- !private ["Ps9Equatable", "sharedSession"]
+- !private ["Ps9Equatable", "statusCode"]
+- !private ["Ps9Equatable", "time"]
+- !private ["Ps9Equatable", "timeoutInterval"]
+- !private ["Ps9Equatable", "valueForKey"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSo17GIDSignInDelegate", "managedObjectContext"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "GET"]
+- !private ["Ps8Hashable", "HTTPMethod"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "ReloadIgnoringLocalAndRemoteCacheData"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "cachePolicy"]
+- !private ["Ps8Hashable", "content"]
+- !private ["Ps8Hashable", "dataTaskWithRequest"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "entityForName"]
+- !private ["Ps8Hashable", "from"]
+- !private ["Ps8Hashable", "header"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isRead"]
+- !private ["Ps8Hashable", "managedObjectContext"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "sharedApplication"]
+- !private ["Ps8Hashable", "sharedSession"]
+- !private ["Ps8Hashable", "statusCode"]
+- !private ["Ps8Hashable", "time"]
+- !private ["Ps8Hashable", "timeoutInterval"]
+- !private ["Ps8Hashable", "valueForKey"]
+- !private ["SQ", "deinit"]
+- !private ["P12OfflineEmail17InboxViewDelegate", "isConnected"]
+- !private ["P12OfflineEmail17InboxViewDelegate", "reloadEmailsWith"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "Distance"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
+- !private ["O9Alamofire6Method", "GET"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "init"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "init"]
+- !private ["PSo8NSCoding", "HTTPMethod"]
+- !private ["PSo8NSCoding", "cachePolicy"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo8NSCoding", "timeoutInterval"]
+- !private ["PSo8NSCoding", "valueForKey"]
+- !private ["PSo9NSCopying", "HTTPMethod"]
+- !private ["PSo9NSCopying", "cachePolicy"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["PSo9NSCopying", "timeoutInterval"]
+- !private ["PSo9NSCopying", "valueForKey"]
+- !private ["CSo12NSDictionary", "valueForKey"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "valueForKey"]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["CSo15NSManagedObject", "content"]
+- !private ["CSo15NSManagedObject", "from"]
+- !private ["CSo15NSManagedObject", "header"]
+- !private ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "isRead"]
+- !private ["CSo15NSManagedObject", "time"]
+- !private ["PSo16NSMutableCopying", "HTTPMethod"]
+- !private ["PSo16NSMutableCopying", "cachePolicy"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "timeoutInterval"]
+- !private ["PSo16NSMutableCopying", "valueForKey"]
+- !private ["CSo19NSMutableURLRequest", "HTTPMethod"]
+- !private ["CSo19NSMutableURLRequest", "cachePolicy"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo19NSMutableURLRequest", "timeoutInterval"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "cachePolicy"]
+- !private ["CSo8NSObject", "content"]
+- !private ["CSo8NSObject", "dataTaskWithRequest"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "entityForName"]
+- !private ["CSo8NSObject", "from"]
+- !private ["CSo8NSObject", "header"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isRead"]
+- !private ["CSo8NSObject", "managedObjectContext"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "sharedSession"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["CSo8NSObject", "time"]
+- !private ["CSo8NSObject", "timeoutInterval"]
+- !private ["CSo8NSObject", "valueForKey"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- !private ["PSo16NSObjectProtocol", "cachePolicy"]
+- !private ["PSo16NSObjectProtocol", "content"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithRequest"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- !private ["PSo16NSObjectProtocol", "from"]
+- !private ["PSo16NSObjectProtocol", "header"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isRead"]
+- !private ["PSo16NSObjectProtocol", "managedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "sharedSession"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "time"]
+- !private ["PSo16NSObjectProtocol", "timeoutInterval"]
+- !private ["PSo16NSObjectProtocol", "valueForKey"]
+- !private ["PSo14NSSecureCoding", "HTTPMethod"]
+- !private ["PSo14NSSecureCoding", "cachePolicy"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["PSo14NSSecureCoding", "timeoutInterval"]
+- !private ["PSo14NSSecureCoding", "valueForKey"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLRequest", "HTTPMethod"]
+- !private ["CSo12NSURLRequest", "cachePolicy"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo12NSURLRequest", "timeoutInterval"]
+- !private ["OSC23NSURLRequestCachePolicy", "ReloadIgnoringLocalAndRemoteCacheData"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- !private ["CSo12NSURLSession", "dataTaskWithRequest"]
+- !private ["CSo12NSURLSession", "sharedSession"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- !private ["C12OfflineEmail14NetworkManager", "Alamofire"]
+- !private ["C12OfflineEmail14NetworkManager", "AppDelegate"]
+- !private ["C12OfflineEmail14NetworkManager", "Array"]
+- !private ["C12OfflineEmail14NetworkManager", "Email"]
+- ["C12OfflineEmail14NetworkManager", "InboxViewDelegate"]
+- !private ["C12OfflineEmail14NetworkManager", "NSData"]
+- !private ["C12OfflineEmail14NetworkManager", "NSDictionary"]
+- !private ["C12OfflineEmail14NetworkManager", "NSEntityDescription"]
+- !private ["C12OfflineEmail14NetworkManager", "NSError"]
+- !private ["C12OfflineEmail14NetworkManager", "NSHTTPURLResponse"]
+- !private ["C12OfflineEmail14NetworkManager", "NSMutableURLRequest"]
+- !private ["C12OfflineEmail14NetworkManager", "NSURL"]
+- !private ["C12OfflineEmail14NetworkManager", "NSURLRequestCachePolicy"]
+- !private ["C12OfflineEmail14NetworkManager", "NSURLResponse"]
+- !private ["C12OfflineEmail14NetworkManager", "NSURLSession"]
+- !private ["C12OfflineEmail14NetworkManager", "String"]
+- !private ["C12OfflineEmail14NetworkManager", "UIApplication"]
+- ["C12OfflineEmail14NetworkManager", "checkReachapility"]
+- ["C12OfflineEmail14NetworkManager", "deinit"]
+- !private ["C12OfflineEmail14NetworkManager", "dispatch_async"]
+- !private ["C12OfflineEmail14NetworkManager", "dispatch_get_main_queue"]
+- ["C12OfflineEmail14NetworkManager", "fetchAllEmails"]
+- ["C12OfflineEmail14NetworkManager", "init"]
+- !private ["C12OfflineEmail14NetworkManager", "print"]
+- ["C12OfflineEmail14NetworkManager", "serviceURL"]
+- ["C12OfflineEmail14NetworkManager", "viewDelegate"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps16RawRepresentable", "GET"]
+- !private ["Ps16RawRepresentable", "ReloadIgnoringLocalAndRemoteCacheData"]
+- !private ["C9Alamofire7Request", "responseJSON"]
+- !private ["V9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "Failure"]
+- !private ["O9Alamofire6Result", "Success"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "valueForKey"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo21UIApplicationDelegate", "managedObjectContext"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "managedObjectContext"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["PSo29UISplitViewControllerDelegate", "managedObjectContext"]
+- !private ["P9Alamofire21URLRequestConvertible", "HTTPMethod"]
+- !private ["P9Alamofire21URLRequestConvertible", "cachePolicy"]
+- !private ["P9Alamofire21URLRequestConvertible", "init"]
+- !private ["P9Alamofire21URLRequestConvertible", "timeoutInterval"]
+- !private ["P9Alamofire20URLStringConvertible", "HTTPMethod"]
+- !private ["P9Alamofire20URLStringConvertible", "cachePolicy"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["P9Alamofire20URLStringConvertible", "timeoutInterval"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "valueForKey"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C12OfflineEmail11AppDelegate"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "C12OfflineEmail5Email"
+- !private "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "PSo17GIDSignInDelegate"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- !private "SQ"
+- !private "P12OfflineEmail17InboxViewDelegate"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "O9Alamofire6Method"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo17NSHTTPURLResponse"
+- !private "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "OSC23NSURLRequestCachePolicy"
+- !private "CSo13NSURLResponse"
+- !private "CSo12NSURLSession"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- "C12OfflineEmail14NetworkManager"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "C9Alamofire7Request"
+- !private "V9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo29UISplitViewControllerDelegate"
+- !private "P9Alamofire21URLRequestConvertible"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLSignIn/GGLContext+SignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLSignIn/GGLSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/SignIn-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GMRConfiguration.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLErrorCode.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLContext.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLConfiguration.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLCore.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/Core-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/Analytics-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDSignInButton.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDProfileData.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDGoogleUser.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDAuthentication.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Modules/ReachabilitySwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/AlamofireSwiftyJSON.framework/Modules/AlamofireSwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/AlamofireSwiftyJSON.framework/Headers/AlamofireSwiftyJSON-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/AlamofireSwiftyJSON.framework/Headers/AlamofireSwiftyJSON-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/AlamofireSwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Modules/module.modulemap"
+interface-hash: "6bed2335fe72880b32f9bace40574689"

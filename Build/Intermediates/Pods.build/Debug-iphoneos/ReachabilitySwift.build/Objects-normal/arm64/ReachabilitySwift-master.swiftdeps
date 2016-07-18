@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "2b2dd9917ded0c7811ac42bd4f65c6c1"
+build_time: [522084585, 218432000]
+inputs:
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/ReachabilitySwift/Reachability/Reachability.swift": [522024776, 0]

@@ -1,0 +1,155 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Email"
+provides-nominal:
+- "C12OfflineEmail5Email"
+provides-member:
+- ["C12OfflineEmail5Email", ""]
+provides-dynamic-lookup:
+- "content"
+- "time"
+- "header"
+- "from"
+- "isRead"
+depends-top-level:
+- "String"
+- "NSManagedObject"
+- "Email"
+- "NSNumber"
+depends-member:
+- ["Ps9AnyObject", "content"]
+- ["Ps9AnyObject", "from"]
+- ["Ps9AnyObject", "header"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isRead"]
+- ["Ps9AnyObject", "time"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "content"]
+- ["Ps11CVarArgType", "from"]
+- ["Ps11CVarArgType", "header"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "isRead"]
+- ["Ps11CVarArgType", "time"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "content"]
+- ["Ps28CustomDebugStringConvertible", "from"]
+- ["Ps28CustomDebugStringConvertible", "header"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isRead"]
+- ["Ps28CustomDebugStringConvertible", "time"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "content"]
+- ["Ps23CustomStringConvertible", "from"]
+- ["Ps23CustomStringConvertible", "header"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isRead"]
+- ["Ps23CustomStringConvertible", "time"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C12OfflineEmail5Email", "NSNumber"]
+- ["C12OfflineEmail5Email", "String"]
+- ["C12OfflineEmail5Email", "content"]
+- ["C12OfflineEmail5Email", "deinit"]
+- ["C12OfflineEmail5Email", "from"]
+- ["C12OfflineEmail5Email", "header"]
+- ["C12OfflineEmail5Email", "init"]
+- ["C12OfflineEmail5Email", "isRead"]
+- ["C12OfflineEmail5Email", "time"]
+- ["Ps9Equatable", "content"]
+- ["Ps9Equatable", "from"]
+- ["Ps9Equatable", "header"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isRead"]
+- ["Ps9Equatable", "time"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "content"]
+- ["Ps8Hashable", "from"]
+- ["Ps8Hashable", "header"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isRead"]
+- ["Ps8Hashable", "time"]
+- ["Ps8Hashable", ""]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "content"]
+- ["CSo15NSManagedObject", "from"]
+- ["CSo15NSManagedObject", "header"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", "isRead"]
+- ["CSo15NSManagedObject", "time"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "content"]
+- ["CSo8NSObject", "from"]
+- ["CSo8NSObject", "header"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isRead"]
+- ["CSo8NSObject", "time"]
+- ["PSo16NSObjectProtocol", "content"]
+- ["PSo16NSObjectProtocol", "from"]
+- ["PSo16NSObjectProtocol", "header"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isRead"]
+- ["PSo16NSObjectProtocol", "time"]
+- ["PSo16NSObjectProtocol", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "C12OfflineEmail5Email"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLSignIn/GGLContext+SignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLSignIn/GGLSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/SignIn-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GMRConfiguration.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLErrorCode.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLContext.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLConfiguration.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/Google/GGLCore/GGLCore.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/Core-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Google/Headers/ModuleHeaders/Analytics-Module.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDSignInButton.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDProfileData.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDGoogleUser.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/Headers/Public/GoogleSignIn/GoogleSignIn/GIDAuthentication.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ReachabilitySwift.framework/Modules/ReachabilitySwift.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ReachabilitySwift.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/ReachabilitySwift.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/AlamofireSwiftyJSON.framework/Modules/AlamofireSwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/AlamofireSwiftyJSON.framework/Headers/AlamofireSwiftyJSON-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/AlamofireSwiftyJSON.framework/Headers/AlamofireSwiftyJSON-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/AlamofireSwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Modules/module.modulemap"
+interface-hash: "be5fa99ec2d5a4c7dc3e95ebb3bf1eae"

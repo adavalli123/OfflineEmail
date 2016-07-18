@@ -1,0 +1,1 @@
+ const unsigned char Pods_OfflineEmailVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_OfflineEmail  PROJECT:Pods-1" "\n"; const double Pods_OfflineEmailVersionNumber __attribute__ ((used)) = (double)1.;

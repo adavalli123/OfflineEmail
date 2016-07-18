@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "4f71c7a428175dd3f64dee7582f3576e"
+build_time: [522136525, 472311000]
+inputs:
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/OfflineEmail/MasterTableViewCell.swift": [522033484, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/OfflineEmail/Email.swift": [522092262, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/OfflineEmail/AppDelegate.swift": [522136523, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/OfflineEmail/NetworkManager.swift": [522092262, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/OfflineEmail/MasterViewController.swift": [522136523, 0]
+  "/Users/srikanthadavalli/Documents/iOS_Projects/AnimationTutorial/Email/OfflineEmail/OfflineEmail/DetailViewController.swift": [522050021, 0]
